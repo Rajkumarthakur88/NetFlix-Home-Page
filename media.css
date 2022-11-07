@@ -1,0 +1,138 @@
+@media(max-width:768px) {
+
+
+nav {
+    width: 99%;
+    padding: 10px 10px;
+  }
+  .nav-left {
+    width: 45%;
+    padding: 5px;
+  }
+  .nav-left img {
+    width: 5rem;
+  }
+  .nav-right {
+    width: 45%;
+  }
+  .nav-sign-in-btn {
+    width: 3rem;
+    padding: 7px 3px;
+}
+  .hero-section {
+    height: 80vh;
+}
+  .hero-section h1 {
+    font-size: 1.6rem;
+    width: 85%;
+  }
+  
+  .hero-section h2 {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+    width: 80%;
+  }
+  .hero-section form {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .hero-section form input[type="email"] {
+    width: 100%;
+    padding: 11px  5px;
+    font-size: 16px;
+  }
+  
+  .hero-btn {
+    width: 9.5rem;
+    padding: 10px 4px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+ 
+  
+/* SECTION 2 */
+
+.section-2 {    
+  flex-direction: column;
+  }
+  
+  .section-2-text {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  .section-2-text h1 {
+    font-size: 1.9rem;
+  }
+  
+  .section-2-text h2 {
+    font-size: 1.2rem;
+  }
+  .section-2-tv {
+    width: 100%;
+    text-align: center;
+}
+
+.section-2-tv img {
+    width: 100%;
+}
+/* SECTION-2 VIDEO */
+.section-2-video{
+    position: absolute;
+    top: 21%;
+    left: 12%;
+    z-index: -1;
+    width: 80vw;
+    overflow: hidden;
+  }
+  
+  .section-2-video video{
+    width: 100%;
+}
+  /* SECTION-4 VIDEO */
+  .section-4-video{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: -1;
+    width: 55vw;
+    overflow: hidden;
+  }
+  .section-4-video video{
+        width: 100%;
+  }
+
+  
+/* SECTION 6 */
+
+.section-6 h1 {
+  font-size: 1.4rem;
+}
+.question {
+  width: 85%;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+}
+.question span {
+  font-size: 2.5rem;
+}
+.section-6 p {
+  font-size: 1rem;
+text-align: center;
+}
+.section-6 form {
+  flex-direction: column;
+}
+.section-6 form input[type="email"] {
+  width: 85%;
+  padding: 10px 10px 10px 5px;
+}
+
+
+}
